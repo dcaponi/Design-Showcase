@@ -1,0 +1,295 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html lang="en" class="ie ie6 lte9 lte8 lte7 os-win"> <![endif]-->
+<!--[if IE 7]> <html lang="en" class="ie ie7 lte9 lte8 lte7 os-win"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie ie8 lte9 lte8 os-win"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie ie9 lte9 os-win"> <![endif]-->
+<!--[if gt IE 9]> <html lang="en" class="os-win"> <![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
+    <!-- JQUERY LIBRARY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    
+    <!-- BOOTSTRAP LIBRARY -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    
+    <!-- GOOGLE FONT OXYGEN -->
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <!-- STYLESHEETS AND MEDIA QUERIES -->
+    <link rel="stylesheet" type="text/css" href="CSS/expstyle.css">
+    <link rel="stylesheet" type="text/css" href="CSS/expqueries.css">
+    
+    <!-- FONT AWESOME ICONS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    
+    <!-- IONICONS ICONS -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    
+    <title>Zhijin Caves/Explore</title>
+</head>
+    
+<body>
+ <!-- HERO WELCOME PAGE (Each time page loads, picture and header are different!) -->
+    <header id="slideshow"> <!-- Pictures changed by javaScript depending on tab selected -->
+        <div class="heroText"> 
+            <h1 id="expimgTxt">Explore</h1>
+            <p class="subTxt">Zhijindong Cave Global Geopark</p> <!-- This is constant. Logo here? -->
+        </div>
+    </header>
+    
+    <section class="menu">
+    <ul class="nav nav-pills nav-justified menuTabs">
+        <li id="newsTab" class="active"><a data-toggle="pill" href="#news">Park News</a></li> 
+        <li id="geoTab"><a data-toggle="pill" href="#geology">Zhijin Geology</a></li>
+        <li id="villageTab"><a data-toggle="pill" href="#village">Zhijin Village</a></li>
+    </ul>
+    
+    <div class="tab-content">
+        <div id="news" class="tab-pane fade in active">
+            
+            <div class="article-container" id="news1">
+                <div class="articlePic"><img src="Images/article/newLook.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-news1"></div>
+                <h2 class="article-title">Zhijindong Park to Become Internationally Recognized Global Geopark</h2>
+                <article><h4>We are elated to announce our new status as a UNESCO Global Geopark.</h4><br>
+                    <div id="collapse-news1" class="collapse">
+                        <p>Zhijindong's awesome team of scientists, architects, builders and guest receptionists have done an amazing job helping with our efforts to revitalize our treasured park and put us on the world stage.</p><br>
+                        <p>We updated our facilities to give Zhijindong a fresh look and undertook a massive construction project to build new learning centers. The construction of information centers and the Zhijindong Cave geo-museum, located in the main scenic area was paramount in helping us gain global geopark status. The architecutre is inspired by the Chinese Yi Nationality.</p><br>
+                        <figure><img src="Images/article/newMuseum.jpg" class="articleImgRight articleImg"></figure>
+                        <p>The total square area of the new museum is 2400 square meters, divided into several parts: the reception hall, the earth and science halls, the Guizhou plateau exhibit, the charming Zhijin village and ecology exhibits, and our cutting-edge 4D popular science theater. </p><br>
+                        <p>The theater is our most popular addition, showing every detail of Guizhou's Karst caves and the evolution of Zhijindong Cave. We also display our region's ethnic customs and culture. Our main feature is a grand display of the value and unique charm of Zhijindong Cave in global Karst history </p><br>
+                            <p>Our new museum is one of thousands of reasons we encourage tourists to visit and discover the secrets of China.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-news1" class="btn readMore">More</button>
+            </div>
+            
+            <div class="article-container" id="news2">
+                <img src="Images/article/newSite.JPG" class="panelThumb" data-toggle="collapse" href="#collapse-news2">
+                <h2 class="article-title">Zhijindong Park Website Gets A New Look</h2>
+                <article><h4>We hope you love it as much as we do.</h4><br>
+                    <div id="collapse-news2" class="collapse">
+                        <p>In our efforts to let the world know we are here and help the local economy flourish, we consulted with an American web designer who gave our website a clean beautiful new look that will entice future tourists in China and abroad. </p><br>
+                        <p>On the new website, you can view pictures of the geopark, get information on general admission prices and operating hours and reserve spots on our hourly tours. We also have an updated look for our park news, geology and Zhijin cultural pages. Each page features articles about events we hold here and the formation of Zhijin's karst structures, as well as background on the surrounding Yi minority villages and environment. </p><br>
+                        <p>Our new website is mobile friendly, allowing you to check our hours and ticket prices any time anywhere, as well as make reservations for a tour. We also update our news feed regularly so you can always know what is happening around Zhijin first so you can get here before the crowds arrive for our unique festivals and once-in-a-lifetime events.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-news2" class="btn readMore">More</button>
+            </div>
+            
+            <div class="article-container" id="news3">
+                <img src="Images/mosaic/mosdark.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-news3">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-news3" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/moscity.jpg" class="articleImgRight articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+                        
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/mosguizhou-zhijin-cave.jpg" class="articleImgLeft articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                       <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-news3" class="btn readMore">More</button>
+            </div>
+            
+            <div class="article-container" id="news4">
+                <img src="Images/mosaic/mosfalls.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-news4">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-news4" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-news4" class="btn readMore">More</button>
+            </div>
+            
+        </div>
+        
+    <div id="geology" class="tab-pane fade">
+            
+            <div class="article-container" id="geo4">
+                <img src="Images/mosaic/mosfalls.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-geo4">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-geo4" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-geo4" class="btn readMore">More</button>
+            </div>
+        
+            <div class="article-container" id="geo2">
+                <img src="Images/article/newSite.JPG" class="panelThumb" data-toggle="collapse" href="#collapse-geo2">
+                <h2 class="article-title">Zhijindong Park Website Gets A New Look</h2>
+                <article><h4>We hope you love it as much as we do.</h4><br>
+                    <div id="collapse-geo2" class="collapse">
+                        <p>In our efforts to let the world know we are here and help the local economy flourish, we consulted with an American web designer who gave our website a clean beautiful new look that will entice future tourists in China and abroad. </p><br>
+                        <p>On the new website, you can view pictures of the geopark, get information on general admission prices and operating hours and reserve spots on our hourly tours. We also have an updated look for our park news, geology and Zhijin cultural pages. Each page features articles about events we hold here and the formation of Zhijin's karst structures, as well as background on the surrounding Yi minority villages and environment. </p><br>
+                        <p>Our new website is mobile friendly, allowing you to check our hours and ticket prices any time anywhere, as well as make reservations for a tour. We also update our news feed regularly so you can always know what is happening around Zhijin first so you can get here before the crowds arrive for our unique festivals and once-in-a-lifetime events.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-geo2" class="btn readMore">More</button>
+            </div>
+        
+            <div class="article-container" id="geo1">
+                <img src="Images/article/newLook.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-geo1">
+                <h2 class="article-title">Zhijindong Park to Become Internationally Recognized Global Geopark</h2>
+                <article><h4>We are elated to announce our new status as a UNESCO Global Geopark.</h4><br>
+                    <div id="collapse-geo1" class="collapse">
+                        <p>Zhijindong's awesome team of scientists, architects, builders and guest receptionists have done an amazing job helping with our efforts to revitalize our treasured park and put us on the world stage. </p><br>
+                        <p>We updated our facilities to give Zhijindong a fresh look and undertook a massive construction project to build new learning centers. The construction of information centers and the Zhijindong Cave geo-museum, located in the main scenic area was paramount in helping us gain global geopark status. The architecutre is inspired by the Chinese Yi Nationality. </p><br>
+                        <figure><img src="Images/article/newMuseum.jpg" class="articleImgRight articleImg"></figure>
+                        <p>The total square area of the new museum is 2400 square meters, divided into several parts: the reception hall, the earth and science halls, the Guizhou plateau exhibit, the charming Zhijin village and ecology exhibits, and our cutting-edge 4D popular science theater. </p><br>
+                        <p>The theater is our most popular addition, showing every detail of Guizhou's Karst caves and the evolution of Zhijindong Cave. We also display our region's ethnic customs and culture. Our main feature is a grand display of the value and unique charm of Zhijindong Cave in global Karst history </p><br>
+                        <p>Our new museum is one of thousands of reasons we encourage tourists to visit and discover the secrets of China.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-geo1" class="btn readMore">More</button>
+            </div>
+                
+            <div class="article-container" id="geo3">
+                <img src="Images/mosaic/mosdark.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-geo3">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-geo3" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/moscity.jpg" class="articleImgRight articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+                        
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/mosguizhou-zhijin-cave.jpg" class="articleImgLeft articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-geo3" class="btn readMore">More</button>
+            </div>
+            
+    </div>
+        
+    <div id="village" class="tab-pane fade">
+            
+            <div class="article-container" id="village1">
+                <img src="Images/mosaic/mosfalls.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-village1">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-village1" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-village1" class="btn readMore">More</button>
+            </div>
+        
+            <div class="article-container" id="village2">
+                <img src="Images/article/newSite.JPG" class="panelThumb" data-toggle="collapse" href="#collapse-village2">
+                <h2 class="article-title">Zhijindong Park Website Gets A New Look</h2>
+                <article><h4>We hope you love it as much as we do.</h4><br>
+                    <div id="collapse-village2" class="collapse">
+                        <p>In our efforts to let the world know we are here and help the local economy flourish, we consulted with an American web designer who gave our website a clean beautiful new look that will entice future tourists in China and abroad. </p><br>
+                        <p>On the new website, you can view pictures of the geopark, get information on general admission prices and operating hours and reserve spots on our hourly tours. We also have an updated look for our park news, geology and Zhijin cultural pages. Each page features articles about events we hold here and the formation of Zhijin's karst structures, as well as background on the surrounding Yi minority villages and environment. </p><br>
+                        <p>Our new website is mobile friendly, allowing you to check our hours and ticket prices any time anywhere, as well as make reservations for a tour. We also update our news feed regularly so you can always know what is happening around Zhijin first so you can get here before the crowds arrive for our unique festivals and once-in-a-lifetime events.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-village2" class="btn readMore">More</button>
+            </div>
+        
+        
+                    <div class="article-container" id="village4">
+                <img src="Images/mosaic/mosdark.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-village4">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-village4" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/moscity.jpg" class="articleImgRight articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+                        
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/mosguizhou-zhijin-cave.jpg" class="articleImgLeft articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-village4" class="btn readMore">More</button>
+            </div>
+        
+        
+            <div class="article-container" id="village3">
+                <img src="Images/article/newLook.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-village3">
+                <h2 class="article-title">Zhijindong Park to Become Internationally Recognized Global Geopark</h2>
+                <article><h4>We are elated to announce our new status as a UNESCO Global Geopark.</h4><br>
+                    <div id="collapse-village3" class="collapse">
+                        <p>Zhijindong's awesome team of scientists, architects, builders and guest receptionists have done an amazing job helping with our efforts to revitalize our treasured park and put us on the world stage. </p><br>
+                        <p>We updated our facilities to give Zhijindong a fresh look and undertook a massive construction project to build new learning centers. The construction of information centers and the Zhijindong Cave geo-museum, located in the main scenic area was paramount in helping us gain global geopark status. The architecutre is inspired by the Chinese Yi Nationality. </p><br>
+                        <figure><img src="Images/article/newMuseum.jpg" class="articleImgRight articleImg"></figure>
+                        <p>The total square area of the new museum is 2400 square meters, divided into several parts: the reception hall, the earth and science halls, the Guizhou plateau exhibit, the charming Zhijin village and ecology exhibits, and our cutting-edge 4D popular science theater. </p><br>
+                       <p>The theater is our most popular addition, showing every detail of Guizhou's Karst caves and the evolution of Zhijindong Cave. We also display our region's ethnic customs and culture. Our main feature is a grand display of the value and unique charm of Zhijindong Cave in global Karst history </p><br>
+                        <p>Our new museum is one of thousands of reasons we encourage tourists to visit and discover the secrets of China.</p>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-village3" class="btn readMore">More</button>
+            </div>
+                
+            <div class="article-container" id="village5">
+                <img src="Images/mosaic/mosdark.jpg" class="panelThumb" data-toggle="collapse" href="#collapse-village5">
+                <h2 class="article-title">太模効津集住岩知審自</h2>
+                <article><h4>太模効津集住岩知審自.</h4><br>
+                    <div id="collapse-village5" class="collapse">
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/moscity.jpg" class="articleImgRight articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+                        
+                        <p>太模効津集住岩知審自人松合海済慢拳策稲育。島拶優武実純打票国碁山広。捜明将俵販文東芸外観南法州対絶新判。教景選全決州必先子者東躍官。終立住田破権異務簡係竹訃部走提能。五産事号戦線効都写幸送負。販検芥東割題掲式送模更痛争康。彦掲航京本綸正掲投思載入悪議混締国全公泣。川営雪般引純本治及歌線謝知身川現全日。</p><br>
+<figure><img src="Images/mosaic/mosguizhou-zhijin-cave.jpg" class="articleImgLeft articleImg"></figure>
+                        <p>経名発派本要政会正程世頭掲史。期省気付恋質毎部適文番田議上都更。告佐失神図財能破内携左税。座査掲間観建車康選向慎三。移設園種号回倍暮海角相員手一上写旅主機長。式申聞車界収澤芝融謙備重更家講真府並保置。発力劇男政左嶋記留済性体日営直間肌克埼載。無野会方線球無風必担乗仕途所全界検。運女能町明住庭単局境戦治新一国後治。</p><br>
+
+                        <p>当命葉家覚堀査全選退表需辛別面。昨扱一廃大内急棄演選西社。遺使議第名図面名肉応東万原考。借企成教彼畑反決寛彩本直改表底速。業条民井臭式市著象属特各二紀以理現報島予。京知化禁図殺素紙計省台表整一軸室軽策見話。長作旨来順禁測交北得紹安提士悟閣瞬載治結。売着内担続辺見歴育将村小。釈飛定優共化人内図最群究需。</p><br>
+                    </div>
+                </article>
+                <p class="clearfix"></p>
+                <button data-toggle="collapse" data-target="#collapse-village5" class="btn readMore">More</button>
+            </div>
+            
+            
+    </div>
+    </div>
+    
+    </section>
+    <!-- JAVASCRIPT FOR INTERACTIONS -->
+<script src="javaScript/effects.js"></script>
+</body>
+</html>

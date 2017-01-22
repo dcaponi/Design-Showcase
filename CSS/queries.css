@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1300px) {
+
+    #slideshow{
+    background-attachment: local;
+    }
+
+    
+}
+
+@media only screen and (max-width: 950px) {
+
+}
+
+@media only screen and (max-width: 800px) {
+    .heroText {
+        font-size: 300%;
+        padding: 10px;
+        padding-left: 40px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .col-sm-3{
+        padding: 20px;
+    }
+    
+    .hideMe{
+        display: none;
+    }
+    
+    .showMe{
+        display: block;
+        font-size: 90%;
+    }
+    
+    .social{
+        text-align: center;
+    }
+    
+    .links{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .travelInfo{
+        text-align: center;
+        font-size: 80%;
+        font-weight: 700;
+    }
+    
+    .location{
+        margin: 0px;
+    }
+}
+   
+
+@media only screen and (max-width: 700px) {
+        .heroText {
+        font-size: 300%;
+    }
+    
+    .col-sm-3{
+        padding: 20px;
+    }
+}
+    
+@media only screen and (max-width: 625px) {
+    .heroText{
+        font-size: 220%;
+        margin-top: 50px;
+    }
+    
+    .tix{
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-height: 500px) {
+    
+}
+    
+@media only screen and (max-width: 480px) {
+
+    .heroText {
+        font-size: 200%;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        line-height: 60px;
+        top: -50px
+        }
+    
+    .btn{
+        float: none;
+        width: 100% !important;
+    }
+    
+     #banner{
+        top: 475px;
+    }
+    
+    .caveFacts{
+        font-size: 80%;
+        line-height: 30px;
+    }
+    
+    #guide:link,
+    #guide:visited{
+    font-size: 110%;
+    line-height: 0px;
+}
+
+    #guide:hover,
+    #guide:active{
+    font-size: 120%;
+}
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .modal,
+    .modalNav{
+        font-size: 80% !important;
+        font-weight: 700;
+    }
+    
+    .tix2{
+        font-size: 80% !important;
+    }
+
+}
+
+@media only screen and (max-width: 304px) {
+
+    .heroText {
+        font-size: 200%;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        top: -110px
+        }
+    
+    .btn{
+        float: none;
+        width: 100% !important;
+    }
+    
+    #banner{
+        top: 360px;
+    }
+    
+    .caveFacts{
+        font-size: 70%;
+    }
+
+}
+
+@media only screen and (max-height: 650px) {
+
+    .heroText {
+        font-size: 200%;
+        font-weight: 700;
+        margin: 50px 0px ;
+        width: 100%;
+        text-align: center;
+        line-height: 35px;
+        top: -150px;
+        padding: 10px;
+        }
+    
+    .btn{
+        float: none;
+        width: 100% !important;
+        height: 40px;
+    }
+    
+    #banner{
+        top: 50vh;
+    }
+    
+    .subTxt{
+    font-size: 40%;
+    font-weight: 700;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    }
+}
+@media only screen and (min-width: 1275px) {
+        .info {
+        padding: 50px !important;
+    }
