@@ -55,38 +55,38 @@ function swapHeadline() {
 var imgArray = new Array();
 
 imgArray[0] = new Image();
-imgArray[0].src = '../Images/bg.jpg';
+imgArray[0].src = 'Images/bg.jpg';
 imgArray[0].Pre = "bg";
 imgArray[0].text = "China's Hidden Treasure";
 
 imgArray[1] = new Image();
-imgArray[1].src = '../Images/city-min.jpg';
+imgArray[1].src = 'Images/city-min.jpg';
 imgArray[1].Pre = "city-min";
 imgArray[1].text = "Discover hidden wonders";
 
 imgArray[2] = new Image();
-imgArray[2].src = '../Images/bluebg-min.jpg';
+imgArray[2].src = 'Images/bluebg-min.jpg';
 imgArray[2].Pre = "bluebg-min";
 imgArray[2].text = "Explore new worlds";
 
 imgArray[3] = new Image();
-imgArray[3].src = '../Images/padogaForest-min.jpg';
+imgArray[3].src = 'Images/padogaForest-min.jpg';
 imgArray[3].Pre = "padogaForest-min";
 imgArray[3].text = "Adventure Awaits";
 
 imgArray[4] = new Image();
-imgArray[4].src = '../Images/blue.jpg';
+imgArray[4].src = 'Images/blue.jpg';
 imgArray[4].Pre = "blue";
 imgArray[4].text = "Surround yourself in natural beauty";
 
 imgArray[5] = new Image();
-imgArray[5].src = '../Images/guizhou-zhijin-cave.jpg';
+imgArray[5].src = 'Images/guizhou-zhijin-cave.jpg';
 imgArray[5].Pre = "guizhou-zhijin-cave";
 imgArray[5].text = "Lose yourself";
 var i = Math.floor(Math.random() * imgArray.length);
 var imagePrefix = imgArray[i].src;
 var imageText = imgArray[i].text;
-var urlString = 'url(../Images/' + imagePrefix + '.jpg)';
+var urlString = 'url(' + imagePrefix + '.jpg)';
 
 document.getElementById("slideshow").style.backgroundImage = urlString;
 document.getElementById("imgTxt").innerHTML = imageText;
