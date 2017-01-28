@@ -86,7 +86,7 @@ imgArray[5].text = "Lose yourself";
 var i = Math.floor(Math.random() * imgArray.length);
 var imagePrefix = imgArray[i].src;
 var imageText = imgArray[i].text;
-var urlString = 'url(' + imagePrefix + '.jpg)';
+var urlString = 'url(' + imagePrefix + ')';
 
 document.getElementById("slideshow").style.backgroundImage = urlString;
 document.getElementById("imgTxt").innerHTML = imageText;
