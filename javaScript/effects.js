@@ -84,7 +84,7 @@ imgArray[5].src = '../Images/guizhou-zhijin-cave.jpg';
 imgArray[5].Pre = "guizhou-zhijin-cave";
 imgArray[5].text = "Lose yourself";
 var i = Math.floor(Math.random() * imgArray.length);
-var imagePrefix = imgArray[i].Pre;
+var imagePrefix = imgArray[i].src;
 var imageText = imgArray[i].text;
 var urlString = 'url(../Images/' + imagePrefix + '.jpg)';
 
